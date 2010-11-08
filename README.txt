@@ -26,3 +26,14 @@ In this way your body tag will have an extra content-section-your-items-id class
 and yet preserve the section-es (or the one for your language).
 
 Useful? It is useful for us :)
+
+Use 
+----
+
+Add it to your buildout::
+
+ eggs = 
+      ...
+      cs.bodysection
+      
+And run buildout. No need to install it. 
