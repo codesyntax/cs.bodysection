@@ -15,9 +15,9 @@ setup(name='cs.bodysection',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      author='Mikel Larreategi',
+      author_email='mlarreategi@codesyntax.com',
+      url='http://code.codesyntax.com/private/cs.bodysection',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['cs'],
@@ -26,6 +26,7 @@ setup(name='cs.bodysection',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+          'Plone >= 4.0'
       ],
       entry_points="""
       # -*- Entry points: -*-
