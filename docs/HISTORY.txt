@@ -1,8 +1,15 @@
 Changelog
 =========
+1.1 (2010/11/25)
+--------------------
+- added a new method to the view to check whether
+  the current context item is a INavigationRoot item
+  or a default-page of a INavigationRoot item
+  [erral]
+
 
 1.0.1 (2010/11/09)
---------------
+--------------------
 - fix documentation
   [erral]
 
