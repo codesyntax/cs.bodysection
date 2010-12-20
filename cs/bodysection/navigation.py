@@ -22,7 +22,8 @@ class NavigationRootContent(BrowserView):
         navigation_root = getNavigationRootObject(context, portal)
         root_path_len = len(navigation_root.getPhysicalPath())
         current_path = context.getPhysicalPath()
-        if len(current_path) >= root_path_len:
+        if len(current_path) > root_path_len:
+            
             return 'content-section-' + current_path[root_path_len]
         else:
             return ''
